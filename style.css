@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.hamburger{
+    
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+.logo_img{
+    height: 50px;
+}
+.title{
+    text-decoration: none;
+}
+.text{
+    font-size: 25px;
+    
+}
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.search-button{
+    height: 61px;
+    width: 60px;
+    border: 0;
+    background: none;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-bar{
+    padding: 21px 30px;
+    padding-right: 200px;
+    border: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.cross{
+    height: 61px;
+    width: 60px;
+    border: 0;
+    background: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
